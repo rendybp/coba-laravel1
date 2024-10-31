@@ -1,10 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PagesController;
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/beranda', [App\Http\Controllers\BerandaController::class,'index']);
+Route::get('/', [PagesController::class,'index']);
 
