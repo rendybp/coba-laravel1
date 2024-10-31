@@ -10,4 +10,20 @@ class PagesController extends Controller
     public function index(){
         return view("index");
     }
+
+    public function keranjang(){
+        return view("keranjang");
+    }
+
+    public function riwayat(){
+        return view("riwayat");
+    }
+
+    public function about(){
+        return view("about");
+    }
+
+    public function login(){
+        return view("login");
+    }
 }

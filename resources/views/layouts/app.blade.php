@@ -17,18 +17,18 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="/keranjang">Keranjang</a>
+                        <a class="nav-link active" href="/keranjang">Keranjang</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/riwayat">Riwayat</a>
+                        <a class="nav-link active" href="/riwayat">Riwayat</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/about">About</a>
+                        <a class="nav-link active" href="/about">About</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav d-flex">
                     <li class="nav-item">
-                        <a class="nav-link" href="/login">Login</a>
+                        <a class="nav-link active" href="/login">Login</a>
                     </li>
                 </ul>
             </div>
